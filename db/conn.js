@@ -10,8 +10,9 @@ try{
 
     sequelize.authenticate()
     console.log('Conectados ao postgres com sucesso!')
+
 } catch (error){
     console.log('Não foi possivel conectar. Erro', error)
 }
 
-export default sequelize
+export default sequelize;

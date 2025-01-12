@@ -1,9 +1,9 @@
-import { Datatypes } from "sequelize";
+import { DataTypes } from "sequelize";
 
-import db from './../db/conn.js';
+import db from '../db/conn.js';
 
 const Carro = db.define('Carro', {
-    model: {
+    modelo: {
         type: DataTypes.STRING,
         allowNull: false,
         require: true
